@@ -2,6 +2,7 @@
 #include<stdlib.h>
 #include<math.h>
 #include<windows.h>
+#include<conio.h>
 //Brayan Parra 20171020156
 //Esta funcion para el tiempo la saque de internet :v
 //https://gist.github.com/csmoore/d3af490666378272d6ff
@@ -85,8 +86,9 @@ int main(){
 		cout<<endl<<endl<<"Tiempo: "<< tiempo <<"ms "<<endl;
 		mostrar(list,n);
 		cout<<endl;
+		delete list;
 }
-delete list;
+
 	getch();
 	return 0;
 }
